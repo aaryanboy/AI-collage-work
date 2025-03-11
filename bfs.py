@@ -21,6 +21,7 @@ def bfsDemo(graph, start_node, goal_node):
     return None
 
 graph = {
+    
     'A': ['B', 'C', 'D'],
     'B': ['E', 'F'],
     'C': ['G'],
