@@ -1,22 +1,13 @@
-def bubble_sort(arr):
-    n = len(arr)
-    for i in range(n):
-       
-        swapped = False
-        for j in range(0, n - i - 1):
-            if arr[j] > arr[j + 1]:
-                arr[j], arr[j + 1] = arr[j + 1], arr[j]  
-                swapped = True
+size=int(input("enter the size of your list:"))
+x=[]
+for i in range(size):
+    element=int(input("Enter your numer:"))
+    x.append(element)
+for i in range(size):
+    for j in range (size-i-1):
+        if x[j]>x[j+1]:
+            temp=x[j]
+            x[j]=x[j+1]
+            x[j+1]=temp
 
-        if not swapped:
-            break
-
-def main():
-    data = [64, 34, 25, 12, 22, 11, 90]
-    print("Unsorted array:", data)
-
-    bubble_sort(data)
-    print("Sorted array:", data)
-
-if __name__ == "__main__":
-    main()
+print("sorted array",x)
