@@ -1,0 +1,20 @@
+<?xml version ="1.0" encoding="UTF-8"?>
+<!-- <?xml-stylesheet type="text/xml"href="cdcatalog.xml"?> -->
+<catalog>
+  <cd>
+  <title>Thriller</title>
+  <artist>Michael Jackson</artist>
+  <country>USA</country>
+  <company>Epic Records</company>
+  <price>12.99</price>
+  <year>1982</year>
+  </cd>
+  <cd>
+  <title>1989</title>
+  <artist>Taylor Swift</artist>
+  <country>USA</country>
+  <company>Bid Machine Records</company>
+  <price>11.50</price>
+  <year>2014</year>
+  </cd>
+  </catalog>
